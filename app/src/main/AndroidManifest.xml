@@ -21,6 +21,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ViewBooksActivity"
+            android:label="View All Books" />
+        <activity
+            android:name=".AddBookActivity"
+            android:label="Add New Book" />
+        <activity
+            android:name=".BorrowBookActivity"
+            android:label="Borrow Book" />
+        <activity
+            android:name=".ReturnBookActivity"
+            android:label="Return Book" />
     </application>
 
 </manifest>
